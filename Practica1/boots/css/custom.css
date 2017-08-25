@@ -1,0 +1,108 @@
+body{
+	background-color: #EDEDED;
+}
+/*  NAVBAR  */
+#nav{
+	margin-top: -70px;
+}
+.navbar-default{
+	background-color: #D19833;
+	border-color: #D19833;
+	font-size: 12px;
+}
+ul form i{
+    color: #000;
+}
+
+
+/* LETRAS DE NAV */
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #000000;
+    font-weight: bold;
+    background-color: #d19833;
+}
+.navbar-default .navbar-nav>li>a {
+    color: rgb(255, 255, 255);
+}
+
+/*  CARROUSEL  */
+#myCaropusel  ol, #myCarousel div, #myCarousel a{
+  height: 450px;
+ }
+ #contprin div{
+ 	height: 450px;
+ }
+.well{
+	background-color: #CBCBCB;
+	text-align: justify;
+	font-size: 12px;
+}
+.well h4{
+	font-size: 15px;
+}
+#pp{
+	font-size: 17px;
+	padding: 70px;
+}
+#footer{
+	height: 50%;
+}
+
+table{
+	border-collapse: separate;
+	border-spacing: 25px;
+	width: 9px;
+}
+
+/* FALTA */
+.img-clicle{
+	border: 3px solid #FFF;
+	border-radius: 50%;
+}
+
+
+/*   REDES SOCIALES   */
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+ }
+
+/*
+    Multicoloured Hover Variations
+*/
+ a {
+    color: #d19833;
+    text-decoration: none;
+}
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-tm:hover {
+     color: #4099FF;
+ }
+ #social-ig:hover {
+     color: #e24d75;
+ }
+
+
+ /*   FOOTER   */
+footer {
+	background-color:#d19833;
+	min-height:300px;
+	font-family: 'Open Sans', sans-serif;
+}
